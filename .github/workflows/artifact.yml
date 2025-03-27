@@ -28,6 +28,4 @@ jobs:
         name: hello-artifact
         path: ./artifacts
     - name: Show file
-      run: |
-          ls -lrta
-          cat ./artifacts/hello.txt
+      run: cat ./artifacts/hello.txt
