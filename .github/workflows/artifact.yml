@@ -27,4 +27,6 @@ jobs:
       with:
         name: hello-artifact
     - name: Show file
-      run: ls -lrta
+      run: |
+          ls -lrta
+          cat hello.txt
